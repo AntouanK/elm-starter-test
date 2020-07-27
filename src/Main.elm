@@ -395,13 +395,7 @@ viewMessage =
         , htmlAttribute <| Html.Attributes.style "letter-spacing" "1px"
         ]
         [ paragraph [ Font.center ]
-            [ text "Bootstrapped with "
-            , newTabLink [ centerX ]
-                { label = el linkAttrs <| text "elm-starter"
-                , url = "https://github.com/lucamug/elm-starter"
-                }
-            , text "."
-            ]
+            [ text "testing elm starter" ]
         , paragraph [ Font.center ]
             [ text "Edit "
             , el (Font.family [ Font.monospace ] :: mouseOverEffect) <| text "src/Main.elm"
